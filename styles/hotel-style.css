@@ -89,21 +89,32 @@ main {
     background-color: #FFF;
 }
 
-main h1 {
+/* main h1 {
     font-family: 'Solway', serif;
     font-size: 5rem;
     color: #BDBDBF;
     border-bottom: 1.4px solid darkgray;
     margin-bottom: .4rem;
     text-shadow: 1.2px 1px 1px #000;
+} */
+
+main h1 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+    text-shadow: 1px 1px 1.5px #000;
+    font-size: 5rem;
+    font-weight: 800;
+    font-style: none;
+    color: white;
+    -webkit-text-stroke: 2px black;
 }
 
 main h2 {
     font-family: 'Solway', serif;
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: #050505;
     margin-top: 1rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 main p {
@@ -198,16 +209,15 @@ figure.cast {
 .cast-section {
     text-align: center;
     justify-content: center;
-    padding: 0rem 2rem;
+    padding: 2rem 2rem;
     background:white;
     font-family: 'ZCOOL XiaoWei', serif;
     font-weight: 500;
 }
 
 .cast-section span {
-   /* text-decoration: underline; */
-   font-size: larger;
-   font-weight: 900;
+   text-decoration: underline;
+   font-size: 2.2rem;
    line-height: 3rem;
 }
 
@@ -259,12 +269,13 @@ figure.cast {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1rem;
     line-height: 2rem;
     /* font-weight: bold; */
     color: black;
     text-align: center;
-    height: 450px;
+    height: 460px;
+    width: 100%;
+    padding: 1rem;
 }
 
 .code {
@@ -279,14 +290,14 @@ figure.cast {
 }
 
 .cast-image {
-    height: calc(100% - 9rem);
+    height: calc(98% - 10rem);
     width: 100%;
     object-fit: contain;
 }
 
 .cast-title {
     font-size: rem;
-    padding: .5rem 0rem;
+    /* padding: .5rem 0rem; */
 }
 
 

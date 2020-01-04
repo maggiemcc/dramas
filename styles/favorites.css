@@ -219,9 +219,9 @@ ul.nav li.active a {
 }
 
 .dramas-image {
-    height: calc(100% - 6.8rem);
+    height: calc(95% - 6.8rem);
     width: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .dramas-title {
